@@ -1,0 +1,107 @@
+ /* PC */
+@media (min-width: 1024px){
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: none;
+    }
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1023px){
+    .contact-btn-send,
+    .places-buy-btn {
+        padding: 16px 16px;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .from-control {
+        padding: 15px;
+    }
+
+    .socials-list a {
+        padding: 0px 8px;
+        font-size: 48px;
+    }
+
+    #footer .link-w3 a{
+        padding: 12px 0;
+        display: inline-block;
+    }
+
+  
+}
+
+/* Tablet */
+ @media (min-width: 739px){
+    #header .mobile-menu-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: none;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+} 
+/* Mobile */
+ @media (max-width: 740px){
+     .s-full-width,
+     .s-col-full {
+         width: 100%;
+     }
+     .s-mt-10 {
+         margin-top: 10px;
+     }
+    #header{
+        overflow: hidden;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #nav {
+        display: block;
+    }
+    /* Chỉ áp dụng Home CSS thẻ li đầu tiên */
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: rgb(36, 36, 36);
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 41px;
+    }
+   
+    #nav>li{
+        display: block;
+    }
+
+    #content .member-list img {
+        width: 60%;
+    }
+
+    .contact-form {
+       margin-top: 32px; 
+      
+    }
+
+} 
